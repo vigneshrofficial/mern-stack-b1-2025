@@ -1,1 +1,1 @@
-// This is react initialization file
+// This is CSS file
