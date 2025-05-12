@@ -1,0 +1,29 @@
+/** @format */
+
+.sub-text {
+  color: red;
+  background-color: black;
+  size: 20px;
+}
+
+.com {
+  color: red !important;
+}
+
+#super-text {
+  color: white;
+  background-color: orange;
+  size: 20px;
+}
+
+.container {
+  border: 2px solid blue;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.title {
+  margin: 0px;
+}

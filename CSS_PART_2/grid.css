@@ -1,0 +1,50 @@
+/** @format */
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-color: #04aa6d;
+  padding: 5px;
+
+  div {
+    background-color: #d9eee1;
+    font-size: 12px;
+  }
+}
+
+.container-2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blueviolet;
+
+  div {
+    background-color: orange;
+    border: 1px solid black;
+    font-size: 12px;
+  }
+}
+.container-3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: blueviolet;
+
+  div {
+    background-color: orange;
+    border: 1px solid black;
+    font-size: 12px;
+  }
+}
+.container-4 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+
+  div {
+    background-color: orange;
+    border: 1px solid black;
+    font-size: 12px;
+  }
+}
