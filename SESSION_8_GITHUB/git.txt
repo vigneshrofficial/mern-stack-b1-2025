@@ -8,3 +8,5 @@ git revert <commit_id>
 git pull (To pull the changes from the other origin)
 
 git log (To check the git commit logs)
+
+git clone https://github.com/vigneshrofficial/mern-stack-b2-2025.git (To download the repos)
