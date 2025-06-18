@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <!-- Favicon -->
+    <link rel="icon" href="./image.png">
+    <title>Advanced - Batch 2</title>
+</head>
+
+<body>
+    <!-- Tables -->
+    <form method="POST">
+        <table>
+            <tr>
+                <td> <label for="name">Name</label></td>
+                <td><input type="text" placeholder="Enter your name" name="name"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phoneNumber">Phone Number</label>
+                </td>
+                <td><input type="number" placeholder="Enter your phone number" name="phoneNumber"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="department">Department</label>
+                </td>
+                <td> <select name="department">
+                        <option value="CSE">Computer Science & Engineering</option>
+                        <option value="IT">Information Technology</option>
+                        <option value="ME">Mechanical Engineering</option>
+                        <option value="CE">Civil Engineering</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="dob">
+                        Date of Birth
+                    </label>
+                </td>
+                <td>
+                    <input type="date" name="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="percentage">12th Mark Percentage</label>
+                </td>
+                <td>
+                    <input type="range" name="percentage">
+                </td>
+                <td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" value="MALE"> Male
+                    <input type="radio" name="gender" value="FEMALE"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="terms"> I agree to the terms and conditions
+                </td>
+                 <td>
+                 <input type="reset" value="Reset">
+                  <button type="submit">Submit</button>
+               </td>
+            </tr>
+        </table>
+
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+--Directory/Folder
+mkdir - create a new directory/folder
+rmdir - delete a directory
+rm -r DOUBLE_DOT - Delete entire folder with files inside
+
+--File
+touch - create a new file
+rm - delete a file
+cat - View the file content
+nano - Create a file and add content inside.
+
+--Short Hand Operators
+ls DOUBLE_DOT
+rm DOUBLE_DOT/index.txt
+
+whoami - To know the username

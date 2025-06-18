@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbar div{
+    background-color: #232E3E;
+    border: 1px solid #232E3E;
+    padding: 3px 10px;
+}
+
+a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#navbar div:hover{
+border: 1px solid white;
+}

@@ -1,0 +1,98 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: cadetblue;
+
+   div{
+        background-color: orange; 
+        margin: 5px;
+    }
+}
+
+#container-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    padding: 10px;
+
+     div{
+        background-color: rgb(136, 0, 255); 
+        color: white;
+        padding: 5px;
+    }
+}
+
+#container-3{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightcoral;
+    padding: 10px;
+
+     div{
+        background-color: rgb(136, 0, 255); 
+        color: white;
+        padding: 5px;
+    }
+}
+
+#container-4{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    padding: 10px;
+
+     div{
+        background-color: rgb(136, 0, 255); 
+        color: white;
+        padding: 5px;
+    }
+}
+
+#container-5{
+    margin-top:10px;
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: column-reverse; */
+    gap: 10px;
+    justify-content: space-between;
+    background-color: rgb(240, 210, 128);
+    padding: 10px;
+
+     div{
+        background-color: rgb(136, 0, 255); 
+        color: white;
+        padding: 5px;
+    }
+}
+
+#container-6{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(173, 240, 128);
+    padding: 10px;
+
+
+     div{
+        background-color: rgb(51, 127, 0); 
+        color: white;
+        padding: 5px;
+    }
+}
+
+.container-7{
+    margin-top:10px;
+    display: flex;
+    gap: 5px;
+    background-color: rgb(173, 240, 128);
+    padding: 10px;
+
+     div{
+        background-color: rgb(51, 127, 0); 
+        color: white;
+        padding: 5px;
+    }
+}
