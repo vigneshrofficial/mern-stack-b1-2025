@@ -6,3 +6,5 @@ git commit -m "<commit message>" (To add commit for the changes)
 git push (To push the committed change to remote/cloud)
 git revert <commit_id>
 git pull (To pull the changes from the other origin)
+
+git log (To check the git commit logs)
