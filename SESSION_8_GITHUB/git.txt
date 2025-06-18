@@ -4,7 +4,7 @@ git remote -v (To view all the remote connection)
 git add . (Stage the changes)
 git commit -m "<commit message>" (To add commit for the changes)
 git push (To push the committed change to remote/cloud)
-git revert <commit_id>
+git revert <commit_id> (move to other version)
 git pull (To pull the changes from the other origin)
 
 git log (To check the git commit logs)
