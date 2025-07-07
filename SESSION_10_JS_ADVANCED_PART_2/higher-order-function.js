@@ -44,13 +44,18 @@ const products = [
     ]
 ]
 
+const a = [1,3,4,5,[2,3,3,4,[4,7,4,5]],6,7,8,9,10];
+
+console.log(a.flat(2)); // Flattens the array to a depth of 2
+
+
 const flatMappedProducts = products.flatMap((productList) => {
     return productList.map((product) => {
         return `${product.name} costs $${product.price}`;
     });
 })
 
-console.log(flatMappedProducts);
+console.log(products.flat());
 
 //Filter
 const numbers = [{
