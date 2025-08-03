@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <h1 class="count">1</h1> -->
+
+    <div class="mobiles">
+        <p>Samsung S24</p>
+    </div>
+
+    <button onclick="addMobiles()">Add Mobiles</button>
+
+    <!-- <button onclick="handleIncreaseCount()">Increase</button> 
+    <button onclick="handleDecreaseCount()">Decrease</button>  -->
+
+    <script>
+        function addMobiles(){
+            const mobiles = document.querySelector(".mobiles") // Fetch the parent element
+
+            const newMobiles = [
+                "iPhone 15",
+                "Google Pixel 8",
+                "OnePlus 11",
+                "Xiaomi 13 Pro"
+            ];
+
+            newMobiles.forEach(mobile => {
+               const mobileElement = "<p>" + mobile + "</p>"
+               mobiles.innerHTML = mobiles.innerHTML + mobileElement;
+       })
+        }
+
+        // function handleIncreaseCount(){
+        //         const h1 = document.querySelector(".count");
+        //         h1.innerText = parseInt(h1.innerText) + 1;
+        // }
+
+        // function handleDecreaseCount(){
+        //     const h1 = document.querySelector(".count");
+            
+        //     if(parseInt(h1.innerText) == 0){
+        //         alert("Count cannot be less than 0");
+        //     }else{
+        //         h1.innerText = parseInt(h1.innerText) - 1; 
+        //     }
+
+        // }
+
+    </script>
+
+</body>
+</html>
