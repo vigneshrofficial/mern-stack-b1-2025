@@ -1,0 +1,6 @@
+What is GitHub?
+
+Github is a code repo. Which helps to store the code.
+
+Photos -> Google Storage
+Code -> Code Repo (Github, Bitbucket, GitLab)

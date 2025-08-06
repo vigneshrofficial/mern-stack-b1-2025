@@ -1,0 +1,37 @@
+Step 1:
+Create or update the file content
+
+Step 2:
+git init - To create the git folder in the same dir (.git) (Once)
+
+Step 3:
+git add . - To add it in the .git folder as a snapshot
+
+Step 4:
+git commit -m "v1 navigation bar" - adds the checkpoint message
+
+Step 5:
+git remote add origin https://github.com/vigneshrofficial/my-b1-app.git - Repo area
+
+Step 6:
+git remote -v (To check the remote endpoint)
+
+Step 7:
+git push / First time give (git push --set-upstream origin master) (Once) then you can use (git push alone)
+
+
+
+From second time
+
+Step 1: Make a change
+Step 2: Move to staging (git add .)
+Step 3: Add a commit message (git commit -m "v2 login page")
+Step 4: Push the code to repo (git push)
+
+
+git revert <commit_id> (move to other version)
+
+
+To see the updated content in the code repo
+
+git pull
